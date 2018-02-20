@@ -1,7 +1,7 @@
 {
   "name": "fitflow",
   "version": "1.0.0",
-  "description": "",
+  "description": "track your fitness progress in a beautiful flow of photos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,8 +12,26 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jmw1493/FitFlow/issues"
+  "dependencies": {
+    "expect": "^22.4.0",
+    "express": "^4.12.3",
+    "npm": "^5.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
   },
-  "homepage": "https://github.com/jmw1493/FitFlow#readme"
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "redux-devtools-extension": "^2.13.2",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
 }
