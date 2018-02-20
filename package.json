@@ -1,0 +1,19 @@
+{
+  "name": "fitflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmw1493/FitFlow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmw1493/FitFlow/issues"
+  },
+  "homepage": "https://github.com/jmw1493/FitFlow#readme"
+}
