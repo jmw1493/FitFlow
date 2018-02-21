@@ -1,0 +1,155 @@
+.wrapper {
+  min-height: 100%;
+  border: 1px solid black;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.under-header {
+  width: 100%;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.follower-count {
+  width: 100px;
+  height: 40px;
+  align-self: center;
+  margin-left: 5px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollbar {
+  height: 15px;
+  width: 50%;
+  border: 1px solid black;
+  margin-left: 175px;
+  align-self: center;
+}
+
+.main {
+  width: 100%;
+  height: 1000px;
+  border: 1px solid yellow;
+}
+
+.left-column {
+  width: 10%;
+  height: 825px;
+  border: 5px solid green;
+  float: left;
+}
+
+.url-box {
+  width: 80%;
+  height: 200px;
+}
+
+.submit-url {
+  width: 80%;
+  height: 50px;
+}
+
+.content {
+  width: 80%;
+  height: 1000px;
+  border: 1px solid blue;
+  float: left;
+}
+
+.photo-section {
+  height: 400px;
+  width: 80%;
+  border: 1px solid blue;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-button, .right-button {
+  width: 5%;
+  height: 100%;
+  align-self: center;
+} 
+
+.small-photo-left {
+  width: 20%;
+  border: 1px solid greenyellow;
+  /* background:linear-gradient(to right, gray, white) */
+  /* rgba(0,0,0,.4) */
+}
+
+.small-photo-right {
+  width: 20%;
+  border: 1px solid greenyellow;
+  /* background:linear-gradient(to left, gray, white) */
+  /* rgba(0,0,0,.4) */
+}
+
+.big-photo {
+  width: 50%;
+  border: 1px solid purple;
+  display: flex;
+  justify-content: center;
+}
+
+.main-photo {
+  width: 100%;
+  height: 100%;
+  border: 1px solid brown;
+}
+
+/* .date {
+  height: 30px;
+  width: 100px;
+  z-index: 1;
+  border: 1px solid burlywood;
+} */
+
+.like-section {
+  height: 25px;
+  width: 80%;
+  border: 1px solid orange;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-button, .like-number, .div-for-space, .follow-button {
+  width: 50px;
+}
+
+.like-number {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-button {
+  width: 300px;
+}
+
+.detail-section {
+  height: 400px;
+  width: 80%;
+  overflow: scroll;
+  border: 1px solid green;
+  margin: auto;
+}
+
+.comment-section {
+  height: 175px;
+  width: 80%;
+  overflow: scroll;
+  border: 1px solid yellow;
+  margin: auto;
+}

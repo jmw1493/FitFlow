@@ -4,13 +4,13 @@ const webpack = require('webpack');
 
 
 module.exports = {
-  entry: './client/index.js',
+  entry: './Client/index.js',
   output: {
-    path: path.resolve(__dirname, './build'),
+    path: path.resolve(__dirname, './Build'),
     filename: 'webpack-bundle.js'
   },
   devServer: {
-    contentBase: path.join(__dirname, "./build"),
+    contentBase: path.join(__dirname, "./Build"),
   },
   module: {
     rules: [
@@ -22,10 +22,10 @@ module.exports = {
         }
       },
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         use: [
           {loader: "style-loader" }, 
-          {loader: "css-loader"}, 
+          {loader: "css-loader"}
         ]
       }
     ]
